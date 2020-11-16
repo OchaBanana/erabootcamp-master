@@ -2,8 +2,8 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Era Tech Summit 2019 Lab
-  :name: _era_tech_summit_2019_lab
+  :caption: Era Bootcamp
+  :name: _era_bootcamp
   :hidden:
 
   era/era
@@ -15,6 +15,17 @@
   :hidden:
 
   era_deploy_and_register/era_deploy_and_register
+
+.. toctree::
+  :maxdepth: 2
+  :caption: Era Oracle Labs
+  :name: _era_oracle_labs
+  :hidden:
+
+  deploy_oracle/deploy_oracle
+  deploy_oracle_era/deploy_oracle_era
+  patching_oracle/patching_oracle
+  admin_oracle/admin_oracle
 
 .. toctree::
   :maxdepth: 2
@@ -94,6 +105,9 @@ Agenda
 
 - Nutanix Era Labs
     - Era: Deploy and Register
+    - Era: Deploy Oracle DB
+    - Era: Patching Oracle DB
+    - Era: Admin Oracle DB
     - Era: Provision Postgres DB
     - Era: Clone Postgres DB
     - Era: Create MSSQL Server
