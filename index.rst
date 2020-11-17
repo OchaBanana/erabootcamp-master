@@ -1,12 +1,12 @@
-.. title:: Nutanix Era Bootcamp
+.. title:: Nutanix Certified Services Consultant Labs
 
 .. toctree::
   :maxdepth: 2
-  :caption: Era Bootcamp
-  :name: _era_bootcamp
+  :caption: NCSC Labs
+  :name: _ncsc_labs
   :hidden:
 
-  era/era
+  ncsc/ncsc
 
 .. toctree::
   :maxdepth: 2
