@@ -1,4 +1,4 @@
-.. title:: Nutanix Era Bootcamp
+.. title:: Nutanix Era Bootcamp 
 
 .. toctree::
   :maxdepth: 2
