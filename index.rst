@@ -97,8 +97,8 @@ What's New
 Resources
 +++++++++
 
-- `Era Software Download <https://portal.nutanix.com/#/page/releases/eraDetails>`_
-- `Era User Guide <https://portal.nutanix.com/#/page/docs/details?targetId=Nutanix-Era-User-Guide-v10:Nutanix-Era-User- Guide-v10>`_
+- `Era Software Download <https://portal.nutanix.com/page/downloads?product=era>`_
+- `Era User Guide <https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Era-User-Guide-v2_0:Nutanix-Era-User-Guide-v2_0>`_
 
 Agenda
 ++++++

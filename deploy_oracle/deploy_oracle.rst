@@ -17,26 +17,9 @@ Source Oracle VM
 
 This VM is running Oracle 19c with April PSU patches applied.
 
-#. In **Prism Central**, select :fa:`bars` **> Virtual Infrastructure > VMs**.
+#. Select VM *UserXX*\ **_Oracle19cSource**"
 
-   .. figure:: images/1.png
-
-#. Select the checkbox for *USerXX*\ **-Oracle19cSource**, and click **Actions > Clone**.
-
-   .. figure:: images/1b.png
-
-#. Fill out the following fields:
-
-   - **Number Of Clones** - 1
-   - **Name** - *UserXX*\ **-MSSQLSourceVM-Patched**
-   - **Description** - (Optional) Description for your VM.
-   - **vCPU(s)** - 2
-   - **Number of Cores per vCPU** - 1
-   - **Memory** - 8 GiB
-
-#. Click **Save** to create the VM.
-
-#. Select VM and click **Actions > Power On**.
+#. Click **Actions > Power On**.
 
 Exploring Era Resources
 +++++++++++++++++++++++
@@ -45,7 +28,7 @@ Era is distributed as a virtual appliance that can be installed on either AHV or
 
 .. note::
 
-   If you're interested, instructions for the brief installation of the Era appliance can be found `here <https://portal.nutanix.com/#/page/docs/details?targetId=Nutanix-Era-User-Guide-v12:era-era-installing-on-ahv-t.html>`_.
+   If you're interested, instructions for the brief installation of the Era appliance can be found `here <https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Era-User-Guide-v2_0:Nutanix-Era-User-Guide-v2_0>`_.
 
 #. In **Prism Central > VMs > List**, identify the IP address assigned to the **EraServer-\*** VM using the **IP Addresses** column.
 
@@ -105,7 +88,7 @@ In this exercise, you will register your April PSU VM and register it as version
 #. Click **+ Register** and fill out the following **Database Server** fields:
 
    - **Engine** - Oracle
-   - **IP Address or Name of VM** - *UserXX*\ **-MSSQLSourceVM**
+   - **IP Address or Name of VM** - *UserXX*\ **_Oracle19cSource**"
    - **Database Version** - 19.0.0.0
    - **Era Drive User** - oracle
    - **Oracle Database Home** - /u02/app/oracle/product/19.0.0/dbhome_1
@@ -137,7 +120,7 @@ In this exercise, you will register your April PSU VM and register it as version
    - **Type** - Single Instance
    - **Name** - *Initials*\ _ORACLE_19C
    - **Description** - (Optional)
-   - **Database Server** - Select your registered *UserXX*\ **-MSSQLSourceVM**
+   - **Database Server** - Select your registered *UserXX*\ **_Oracle19cSource**"
 
    .. figure:: images/3.png
 
@@ -156,7 +139,7 @@ Register Your Database
 
    - **Engine** - ORACLE
    - **Database is on a Server that is:** - Registered
-   - **Registered Database Servers** - Select your registered *UserXX*\ **-MSSQLSourceVM**
+   - **Registered Database Servers** - Select your registered *UserXX*\ **_Oracle19cSource**"
 
    .. figure:: images/12.png
 

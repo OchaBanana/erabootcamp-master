@@ -39,7 +39,7 @@ Once the **WideWorldImporters** database has been registered with Era, the Time 
    -  **IP Address or Name of VM** - *Initials*-Database IP
    -  **Instance Name** - MSSQLSERVER
    -  **Windows Administrator Name** - Administrator
-   -  **Windows Administrator Password** - nutanix/4u
+   -  **Windows Administrator Password** - Nutanix/4u
    -  **Connect to SQL Server Login** - Windws Admin User
    -  **User Name** - Administrator
 

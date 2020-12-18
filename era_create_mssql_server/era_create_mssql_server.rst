@@ -1,8 +1,8 @@
 .. _era_create_mssql_server:
 
---------------------------
-Era: Create MSSQL Server
---------------------------
+-----------------------------------
+Era: Create MSSQL Server (Optional)
+-----------------------------------
 
 Overview
 ++++++++
@@ -90,7 +90,7 @@ Initialize the Server
 
 #. Click **Accept** to accept the license terms.
 
-#. Set the Administrator password, **nutanix/4u**, and click **Finish**.
+#. Set the Administrator password, **Nutanix/4u**, and click **Finish**.
 
 #. Login as the local Administrator.
 
