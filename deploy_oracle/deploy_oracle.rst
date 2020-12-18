@@ -17,7 +17,7 @@ Source Oracle VM
 
 This VM is running Oracle 19c with April PSU patches applied.
 
-#. Select VM *UserXX*\ **_Oracle19cSource**"
+#. Select VM *UserXX*\ **_Oracle19cSource**
 
 #. Click **Actions > Power On**.
 
